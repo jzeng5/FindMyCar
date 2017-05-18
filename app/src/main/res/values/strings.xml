@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FindMyCar</string>
+    <string name="DIRE">WAIT</string>
+    <string name="UP">UP</string>
+    <string name="DOWN">DOWN</string>
+    <string name = "RIGHT">RIGHT</string>
+    <string name = "COMPASS">COMPASS</string>
+</resources>

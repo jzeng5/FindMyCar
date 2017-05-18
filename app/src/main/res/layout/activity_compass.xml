@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09999c"
+    tools:context="com.example.jessicazeng1127.carfinderinterfacecompass.compass">
+
+    <ImageView
+        android:id="@+id/imageViewCompass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/compass_arrow"
+        android:contentDescription="@string/COMPASS"
+        style="@style/Base.TextAppearance.AppCompat.Caption"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/DIRE"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="111dp" />
+
+    <TextView
+        android:id="@+id/DIRE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text= "@string/DIRE"
+        android:textSize="70sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="4dp"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:typeface="normal"
+        android:theme="@style/Base.TextAppearance.AppCompat.Title"
+        android:layout_alignWithParentIfMissing="true"
+        android:textColor="#e3e2e2"
+        android:elegantTextHeight="true" />
+
+
+</RelativeLayout>
