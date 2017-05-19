@@ -1,7 +1,7 @@
 # FindMyCar
 A Hackthon project, android application to helper users find where they parked their cars.
 
-# Author:
+# Author
 Jessica Zeng, Zephyr Yao and Edwin Angkasa.
 
 # What it does
